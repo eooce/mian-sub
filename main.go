@@ -12,12 +12,12 @@ import (
 const port = 3000
 
 var subscriptions = []string{
-	"http://node2.lunes.host:27180/sub",     // Lunes-IE-8118158
-	"http://node4.lunes.host:1139/sub",      // Lunes-CA-6887668
-	"http://free-2.witchly.cloud:25720/sub", // Witchly-FI-WXXUUX
-	"http://51.161.130.134:10328/sub",       // Sanilds-AU-6887668
-	"http://95.214.55.215:1540/sub",         // RudraCloud-PL-wxxuux
-	//"http://uk-bot-01.scarcehost.uk:4698/sub",                     // scarehost-GB-wxxuux
+	"http://node2.lunes.host:27180/sub",                           // Lunes-IE-8118158
+	"http://node4.lunes.host:1139/sub",                            // Lunes-CA-6887668
+	"http://free-2.witchly.cloud:25720/sub",                       // Witchly-FI-WXXUUX
+	"http://51.161.130.134:10328/sub",                             // Sanilds-AU-6887668
+	"http://95.214.55.215:1540/sub",                               // RudraCloud-PL-wxxuux
+	"http://uk-bot-01.scarcehost.uk:4698/sub",                     // scarehost-GB-wxxuux
 	"http://infra.chromanodes.eu:25635/sub",                       // chromanodes-CH-8118158
 	"http://server.nexcord.com:10393/sub",                         // nexcord-DE-wxxuux
 	"http://45.140.142.188:4246/sub",                              // solonodes-NL-6887668
@@ -55,19 +55,11 @@ func fetchSubscriptionContent(subscription string, wg *sync.WaitGroup, ch chan<-
 func generateMergedSubscription() (string, error) {
 	var wg sync.WaitGroup
 	ch := make(chan string, len(subscriptions))
-	contents := make([]string, len(subscriptions))
+	contents := make([]string, 0, len(subscriptions))
 
 	for _, subscription := range subscriptions {
 		wg.Add(1)
 		go fetchSubscriptionContent(subscription, &wg, ch)
-	}
-
-	go func() {
-		wg.Wait()
-		close(ch)
-	}()
-
-	for range subscriptions {
 		content := <-ch
 		if content != "" {
 			decodedContent, err := base64.StdEncoding.DecodeString(content)
@@ -78,6 +70,9 @@ func generateMergedSubscription() (string, error) {
 			contents = append(contents, string(decodedContent))
 		}
 	}
+
+	wg.Wait()
+	close(ch)
 
 	// 重新进行base64编码
 	mergedContent := base64.StdEncoding.EncodeToString([]byte(strings.Join(contents, "\n")))
