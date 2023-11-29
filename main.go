@@ -25,9 +25,10 @@ var subscriptions = []string{
 	"http://myappsg.onrender.com/sub",                             // render-SG-xxuuwx@gmail
 	"https://marvelous-selective-humor.glitch.me/sub",             //Glitch-US-8118158
 	"https://raw.githubusercontent.com/eoovve/test/main/sub.txt",  // saclingo-wwxoot
+	"http://env-9542043.sdl1.placeinthe.cloud/sub",                //Savecore-kasu
 	"https://wxxuux-testargo.hf.space/sub",                        // wxxuux-Testargo
 	"https://hkzeabur.zeabur.app/sub",                             // wwxoo-zeabur-hk
-	"https://ws2gous.zeabur.app/sub",                             // wwxoo-zeabur-us
+	"https://ws2gous.zeabur.app/sub",                              // wwxoo-zeabur-us
 	"http://wwxoo.serv00.net:1110/sub",                            // Serv00-xysun-xray-argo
 	"http://xysun.ct8.pl:1231/sub",                                // ct8-xysun-xray-argo
 	"https://raw.githubusercontent.com/eoovve/test/main/sub1.txt", // Codesphere-de+us
