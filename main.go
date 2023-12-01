@@ -18,7 +18,7 @@ var subscriptions = []string{
 	"http://free-2.witchly.cloud:25720/sub",                       // Witchly-FI-WXXUUX
 	"http://51.161.130.134:10328/sub",                             // Sanilds-AU-6887668
 	"http://95.214.55.215:1540/sub",                               // RudraCloud-PL-wxxuux
-	"https://raw.githubusercontent.com/eoovve/test/main/scarce.txt",// scarehost-GB-wxxuux
+	"https://raw.githubusercontent.com/eoovve/test/main/scarce.txt", // scarehost-GB-wxxuux
 	"http://infra.chromanodes.eu:25635/sub",                       // chromanodes-CH-8118158
 	"http://server.nexcord.com:10393/sub",                         // nexcord-DE-wxxuux
 	"http://45.140.142.188:4246/sub",                              // solonodes-NL-6887668
@@ -32,6 +32,7 @@ var subscriptions = []string{
 	"http://wwxoo.serv00.net:1110/sub",                            // Serv00-xysun-xray-argo
 	"http://xysun.ct8.pl:1231/sub",                                // ct8-xysun-xray-argo
 	"https://raw.githubusercontent.com/eoovve/test/main/sub1.txt", // Codesphere-de+us
+	
 	// 添加更多订阅链接
 }
 
