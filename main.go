@@ -21,7 +21,7 @@ var subscriptions = []string{
 	"https://raw.githubusercontent.com/eoovve/test/main/scarce.txt", // scarehost-GB-wxxuux
 	"http://infra.chromanodes.eu:25635/sub",                       // chromanodes-CH-8118158
 	"http://server.nexcord.com:10393/sub",                         // nexcord-DE-wxxuux
-	"http://45.140.142.188:4246/sub",                              // solonodes-NL-6887668
+	//"http://45.140.142.188:4246/sub",                              // solonodes-NL-6887668
 	"http://myappsg.onrender.com/sub",                             // render-SG-xxuuwx@gmail
 	"https://marvelous-selective-humor.glitch.me/sub",             //Glitch-US-8118158
 	"https://raw.githubusercontent.com/eoovve/test/main/sub.txt",  // saclingo-wwxoot
