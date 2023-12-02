@@ -25,7 +25,7 @@ var subscriptions = []string{
 	"http://myappsg.onrender.com/sub",                             // render-SG-xxuuwx@gmail
 	"https://marvelous-selective-humor.glitch.me/sub",             //Glitch-US-8118158
 	"https://raw.githubusercontent.com/eoovve/test/main/sub.txt",  // saclingo-wwxoot
-	"http://env-9542043.sdl1.placeinthe.cloud/sub",                //Savecore-kasu
+	//"http://env-9542043.sdl1.placeinthe.cloud/sub",                //Savecore-kasu
 	"https://wxxuux-testargo.hf.space/sub",                        // wxxuux-Testargo
 	"https://hkzeabur.zeabur.app/sub",                             // wwxoo-zeabur-hk
 	"https://ws2gous.zeabur.app/sub",                              // wwxoo-zeabur-us
