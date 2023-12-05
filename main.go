@@ -12,7 +12,7 @@ import (
 const port = 3000
 
 var subscriptions = []string{
-	//"http://node2.lunes.host:27180/sub",                           // Lunes-IE-8118158
+	"http://node2.lunes.host:27180/sub",                           // Lunes-IE-8118158
 	"http://node4.lunes.host:1139/sub",                            // Lunes-CA-6887668
 	"https://raw.githubusercontent.com/eoovve/test/main/novium",   // novium-NL-wxxuux
 	"http://free-2.witchly.cloud:25720/sub",                       // Witchly-FI-WXXUUX
