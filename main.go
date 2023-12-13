@@ -14,7 +14,7 @@ const port = 3000
 var subscriptions = []string{
 	"http://node2.lunes.host:27180/sub",                           // Lunes-IE-8118158
 	"http://node4.lunes.host:1139/sub",                            // Lunes-CA-6887668
-	//"https://raw.githubusercontent.com/eoovve/test/main/novium",   // novium-NL-wxxuux
+	"http://node2.novium.systems:10033/sub",                       // novium-NL-wxxuux
 	"http://free-2.witchly.cloud:25720/sub",                        // Witchly-FI-WXXUUX
 	"http://51.161.130.134:10328/sub",                             // Sanilds-AU-6887668
 	//"http://95.214.55.215:1540/sub",                               // RudraCloud-PL-wxxuux
