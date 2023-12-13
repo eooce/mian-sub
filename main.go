@@ -27,8 +27,8 @@ var subscriptions = []string{
 	"https://raw.githubusercontent.com/eoovve/test/main/sub.txt",  // saclingo-wwxoot
 	"http://ge1.papernodes.com:20015/sub",                         //papernodes-wxxuux
 	"https://wxxuux-testargo.hf.space/sub",                        // wxxuux-Testargo
-	"https://hkzeabur.zeabur.app/sub",                             // wwxoo-zeabur-hk
-	"https://ws2gous.zeabur.app/sub",                              // wwxoo-zeabur-us
+	//"https://hkzeabur.zeabur.app/sub",                             // wwxoo-zeabur-hk
+	//"https://ws2gous.zeabur.app/sub",                              // wwxoo-zeabur-us
 	"https://raw.githubusercontent.com/eoovve/test/main/00ct8",    // 00+ct8
 	//"http://wwxoo.serv00.net:1110/sub",                            // Serv00-xysun-xray-argo
 	//"http://xysun.ct8.pl:1231/sub",                                // ct8-xysun-xray-argo
