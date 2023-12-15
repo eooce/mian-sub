@@ -24,11 +24,9 @@ var subscriptions = []string{
 	//"http://45.140.142.188:4246/sub",                              // solonodes-NL-6887668
 	"https://sgbpmyapp.onrender.com/sub",                           // render-SG-6881558
 	"https://marvelous-selective-humor.glitch.me/sub",             //Glitch-US-8118158
-	"https://raw.githubusercontent.com/eoovve/test/main/sub.txt",  // saclingo-wwxoot
+	"https://raw.githubusercontent.com/eoovve/test/main/sub.txt",  // saclingo+zeabur-suny_xy@yahoo
 	"http://ge1.papernodes.com:20015/sub",                         //papernodes-wxxuux
 	"https://wxxuux-testargo.hf.space/sub",                        // wxxuux-Testargo
-	//"https://hkzeabur.zeabur.app/sub",                             // wwxoo-zeabur-hk
-	//"https://ws2gous.zeabur.app/sub",                              // wwxoo-zeabur-us
 	"https://raw.githubusercontent.com/eoovve/test/main/00ct8",    // 00+ct8
 	//"http://wwxoo.serv00.net:1110/sub",                            // Serv00-xysun-xray-argo
 	//"http://xysun.ct8.pl:1231/sub",                                // ct8-xysun-xray-argo
