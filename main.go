@@ -23,7 +23,7 @@ var subscriptions = []string{
 	"http://server.nexcord.com:10393/sub",                         // nexcord-DE-wxxuux
 	"https://sgbpmyapp.onrender.com/sub",                           // render-SG-6881558
 	"https://orthodox-nell-jimmny.koyeb.app/sub",                    // koyeb-us-8118158
-	"https://logical-ruperta-eooce.koyeb.app/sub",                  // koyeb-us-8118158
+	"https://logical-ruperta-eooce.koyeb.app/sub",                  // koyeb-de-8888@f4i
 	"https://marvelous-selective-humor.glitch.me/sub",             //Glitch-US-8118158
 	"https://raw.githubusercontent.com/eoovve/test/main/sub.txt",  // saclingo+zeabur-suny_xy@yahoo
 	//"https://app-wwxoo.cloud.okteto.net/sub",                     // okteto-wwxoo
