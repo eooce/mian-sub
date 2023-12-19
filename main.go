@@ -12,7 +12,7 @@ import (
 const port = 3000
 
 var subscriptions = []string{
-	"http://node2.lunes.host:27180/sub",                           // Lunes-IE-8118158
+	//"http://node2.lunes.host:27180/sub",                           // Lunes-IE-8118158
 	"http://node4.lunes.host:1139/sub",                            // Lunes-CA-6887668
 	"http://node2.novium.systems:10033/sub",                       // novium-NL-wxxuux
 	"http://free-2.witchly.cloud:25720/sub",                        // Witchly-FI-WXXUUX
@@ -26,7 +26,7 @@ var subscriptions = []string{
 	"https://raw.githubusercontent.com/eoovve/test/main/sub.txt",  // saclingo+zeabur-suny_xy@yahoo
 	"https://app-wwxoo.cloud.okteto.net/sub",                      // okteto-wwxoo
 	"http://ge1.papernodes.com:20015/sub",                         //papernodes-wxxuux
-	"https://wxxuux-testargo.hf.space/sub",                        // wxxuux-Testargo
+	"https://wxxuux-testargo.hf.space/sub",                        // wxxuux-hug-Testargo
 	"https://raw.githubusercontent.com/eoovve/test/main/00ct8",    // 00+ct8
 	//"http://wwxoo.serv00.net:1110/sub",                            // Serv00-xysun-xray-argo
 	//"http://xysun.ct8.pl:1231/sub",                                // ct8-xysun-xray-argo
