@@ -16,15 +16,15 @@ var subscriptions = []string{
 	"http://node4.lunes.host:1139/sub",                            // Lunes-CA-6887668
 	"http://node2.novium.systems:10033/sub",                       // novium-NL-wxxuux
 	"http://free-2.witchly.cloud:25720/sub",                        // Witchly-FI-WXXUUX
-	"http://51.161.130.134:10328/sub",                             // Sanilds-AU-6887668
+	//"http://51.161.130.134:10328/sub",                             // Sanilds-AU-6887668
 	//"http://95.214.55.215:1540/sub",                               // RudraCloud-PL-wxxuux
 	"https://raw.githubusercontent.com/eoovve/test/main/scarce.txt", // scarehost-GB-wxxuux
 	"http://infra.chromanodes.eu:25635/sub",                       // chromanodes-CH-8118158
 	"http://server.nexcord.com:10393/sub",                         // nexcord-DE-wxxuux
-	//"http://45.140.142.188:4246/sub",                              // solonodes-NL-6887668
 	"https://sgbpmyapp.onrender.com/sub",                           // render-SG-6881558
 	"https://marvelous-selective-humor.glitch.me/sub",             //Glitch-US-8118158
 	"https://raw.githubusercontent.com/eoovve/test/main/sub.txt",  // saclingo+zeabur-suny_xy@yahoo
+	"https://app-wwxoo.cloud.okteto.net/sub",                      // okteto-wwxoo
 	"http://ge1.papernodes.com:20015/sub",                         //papernodes-wxxuux
 	"https://wxxuux-testargo.hf.space/sub",                        // wxxuux-Testargo
 	"https://raw.githubusercontent.com/eoovve/test/main/00ct8",    // 00+ct8
