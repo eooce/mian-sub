@@ -22,7 +22,7 @@ var subscriptions = []string{
 	"http://infra.chromanodes.eu:25635/sub",                       // chromanodes-CH-8118158
 	"http://server.nexcord.com:10393/sub",                         // nexcord-DE-wxxuux
 	"https://sgbpmyapp.onrender.com/sub",                           // render-SG-6881558
-	//"https://orthodox-nell-jimmny.koyeb.app/sub",                    // koyeb-us-8118158
+	"https://rude-midge-ruecker.koyeb.app/sub",                    // koyeb-us-edu
 	"https://logical-ruperta-eooce.koyeb.app/sub",                  // koyeb-de-8888@f4i
 	"https://marvelous-selective-humor.glitch.me/sub",             //Glitch-US-8118158
 	"https://raw.githubusercontent.com/eoovve/test/main/sub.txt",  // saclingo+zeabur-suny_xy@yahoo
