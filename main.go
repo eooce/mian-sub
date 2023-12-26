@@ -32,7 +32,7 @@ var subscriptions = []string{
 	"https://raw.githubusercontent.com/eoovve/test/main/00ct8",    // 00+ct8
 	//"http://wwxoo.serv00.net:1110/sub",                            // Serv00-xysun-xray-argo
 	//"http://xysun.ct8.pl:1231/sub",                                // ct8-xysun-xray-argo
-	"https://raw.githubusercontent.com/eoovve/test/main/sub1.txt", // Codesphere-de+us
+	"https://raw.githubusercontent.com/eoovve/test/main/sub1.txt",   // Codesphere-de+us
 	
 	// 添加更多订阅链接
 }
