@@ -12,31 +12,10 @@ import (
 const port = 3000
 
 var subscriptions = []string{
-	"http://node2.lunes.host:27180/sub",                           // Lunes-IE-8118158
-	"http://node4.lunes.host:1139/sub",                            // Lunes-CA-6887668
-	"http://node2.novium.systems:10033/sub",                       // novium-NL-wxxuux
-	"http://free-1.witchly.cloud:25688/sub",                        // Witchly-FI-WXXUUX
-	//"http://51.161.130.134:10328/sub",                             // Sanilds-AU-6887668
-	//"http://95.214.55.215:1540/sub",                               // RudraCloud-PL-wxxuux
-	"https://raw.githubusercontent.com/eooce/test/main/scarce.txt", // scarehost-GB-wxxuux
-	"http://infra.chromanodes.eu:25635/sub",                       // chromanodes-CH-8118158
-	"http://server.nexcord.com:10393/sub",                         // nexcord-DE-wxxuux
-	"https://sgbpmyapp.onrender.com/sub",                           // render-SG-6881558
-	"https://rude-midge-ruecker.koyeb.app/sub",                    // koyeb-us-edu
-	"https://logical-ruperta-eooce.koyeb.app/sub",                  // koyeb-de-8888@f4i
-	"https://marvelous-selective-humor.glitch.me/sub",             //Glitch-US-8118158
-	"https://raw.githubusercontent.com/eooce/test/main/sub.txt",  // saclingo+zeabur-suny_xy@yahoo
-	//"https://app-wwxoo.cloud.okteto.net/sub",                     // okteto-wwxoo
-	"http://ge1.papernodes.com:20015/sub",                         //papernodes-wxxuux
-	"https://wxxuux-testargo.hf.space/sub",                        // wxxuux-hug-Testargo
-	"https://raw.githubusercontent.com/eooce/test/main/00ct8",    // 00+ct8
-	//"http://wwxoo.serv00.net:1110/sub",                            // Serv00-xysun-xray-argo
-	//"http://xysun.ct8.pl:1231/sub",                                // ct8-xysun-xray-argo
-	"https://45954-3000.2.codesphere.com/sub",                      // Codesphere-de
-	"https://47142-3000.4.codesphere.com/sub",                      // Codesphere-us
-	"https://raw.githubusercontent.com/eooce/test/main/sub1.txt",   // Codesphere-de+us
-	
-	// 添加更多订阅链接
+	"https://www.google.com/sub",      // 备注名称
+	"http://www.google.com/sub",       // 备注名称
+	...
+	// 添加更多子订阅链接
 }
 
 func fetchSubscriptionContent(subscription string, wg *sync.WaitGroup, ch chan<- string) {
@@ -82,7 +61,6 @@ func generateMergedSubscription() (string, error) {
 	wg.Wait()
 	close(ch)
 
-	// 重新进行base64编码
 	mergedContent := base64.StdEncoding.EncodeToString([]byte(strings.Join(contents, "\n")))
 
 	return mergedContent, nil
@@ -93,7 +71,7 @@ func main() {
 		fmt.Fprint(w, "Hello world!")
 	})
 
-	http.HandleFunc("/sum", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/sub", func(w http.ResponseWriter, r *http.Request) {
 		mergedSubscription, err := generateMergedSubscription()
 		if err != nil {
 			http.Error(w, "Internal Server Error", http.StatusInternalServerError)
